@@ -63,12 +63,12 @@ namespace CSC317PassManagerP2Starter.Modules.Views
         {
             get
             {
-               //complete getter for Password.  Currenly returns "hidden."
-               //This should return the actual password is the Show toggle
-               //is true.
-               //note that the password should be decrypted using the user's
-               //encryption key before being shown.
-               return "<hidden>";
+                //complete getter for Password.  Currenly returns "hidden."
+                //This should return the actual password is the Show toggle
+                //is true.
+                //note that the password should be decrypted using the user's
+                //encryption key before being shown.
+                return "<hidden>";
             }
             set
             {
@@ -141,3 +141,4 @@ namespace CSC317PassManagerP2Starter.Modules.Views
     }
 
 }
+
